@@ -16,11 +16,13 @@ $(".navbar-toggler").on("click", function () {
 // Title animation
 
 const typed = new Typed("#typed", {
-  strings: ["Houcine HANNOUN", "un Developpeur Web", "un Ingénieur Industriel"],
+  strings: ["Houcine HANNOUN.", "un Developpeur Web.", "un Ingénieur Industriel."],
   typeSpeed: 70,
+  smartBackspace: true,
   backSpeed: 35,
   backDelay: 1000,
-  startDelay: 300,
+  startDelay: 1000,
   loop: true,
   showCursor: false
 });
+
