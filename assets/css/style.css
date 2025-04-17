@@ -1,13 +1,24 @@
 /* Base rules */
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+}
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-}
-
-body {
-  background: black;
 }
 
 :is(h1, h2, h3, h4, h5, h6) {
@@ -16,8 +27,8 @@ body {
 
 p {
   font-family: "Nunito", sans-serif;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 1.25rem;
+  line-height: 1.8rem;
   color: #6c757d;
 }
 
@@ -25,49 +36,58 @@ p {
 
 nav.h-nav {
   background: transparent;
-  padding: 20px 0;
+  padding: 0;
   transition: 0.5s all;
 }
 
 nav .navbar-brand {
-  font-size: 30px;
+  font-size: 2rem;
   color: rgb(144, 223, 25);
-}
-
-nav .navbar-nav li a {
-  color: rgb(144, 223, 25);
-  font-size: 16px;
-  letter-spacing: 0.05em;
-  font-weight: 600;
-  font-family: "Nunito", sans-serif;
 }
 
 nav .navbar-nav li {
   margin-left: 15px;
 }
 
+nav .navbar-nav li a {
+  color: rgb(144, 223, 25);
+  font-size: 17px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+}
+
+nav .navbar-nav li a:hover,
+nav .navbar-brand:hover {
+  color: #fff;
+}
+
 nav.stickyadd {
   background: #fff;
-  padding: 15px 0;
+  padding: 5px 0;
   box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.05);
   transition: 0.5s all ease-in-out;
 }
 
 nav.stickyadd .navbar-brand {
   color: #000;
-  font-size: 40px;
-  transition: 0.5s all;
+  padding-left: 2rem;
+  transition: 1s all;
 }
 
 nav.stickyadd .nav-link {
   color: #000;
 }
 
+nav.stickyadd .navbar-nav li a:hover,
+nav.stickyadd .navbar-brand:hover {
+  color: rgb(144, 223, 25);
+}
+
 /* Accueil Section  */
 
 header {
   height: 100vh;
-  width: 100vw;
   background-image: url(../images/wmf4pf98d4l61.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -84,15 +104,15 @@ header {
 
 .content-box {
   max-width: 900px;
-  color: #fff;
+  color: #dfd5d5;
 }
 
 .content-box h1 {
-  font-size: 52px;
+  font-size: 3.2rem;
 }
 
-.content-box h04 {
-  font-size: 30px;
+.content-box h4 {
+  font-size: 1.8rem;
 }
 
 .content-box a {
@@ -111,9 +131,14 @@ header {
 
 .content-box p {
   color: #b1acac;
-} 
+}
 
 .animated-title {
   color: rgb(144, 223, 25);
 }
 
+/* Parcours section */
+
+.parcours img {
+  height: 90vh;
+}

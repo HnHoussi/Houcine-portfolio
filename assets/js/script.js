@@ -25,4 +25,3 @@ const typed = new Typed("#typed", {
   loop: true,
   showCursor: false
 });
-
