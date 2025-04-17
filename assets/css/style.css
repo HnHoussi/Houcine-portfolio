@@ -62,3 +62,58 @@ nav.stickyadd .navbar-brand {
 nav.stickyadd .nav-link {
   color: #000;
 }
+
+/* Accueil Section  */
+
+header {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../images/wmf4pf98d4l61.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-box {
+  max-width: 900px;
+  color: #fff;
+}
+
+.content-box h1 {
+  font-size: 52px;
+}
+
+.content-box h04 {
+  font-size: 30px;
+}
+
+.content-box a {
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 5px 22px;
+}
+
+.content-box a:hover {
+  color: #000;
+  background-color: #fff;
+  transition: 0.5s all;
+}
+
+.content-box p {
+  color: #b1acac;
+} 
+
+.animated-title {
+  color: rgb(144, 223, 25);
+}
+
