@@ -149,13 +149,17 @@ header {
 
 /* Parcours section */
 
+.parcours {
+  background-color: #dfd5d5;
+}
+
 .parcours img {
   height: 80vh;
 }
 
 .parcours-title {
   color: #000;
-} 
+}
 .parcours-content {
   font-family: "Nunito", sans-serif;
   font-size: 1.25rem;
@@ -165,4 +169,34 @@ header {
 
 .parcours-content li {
   margin-bottom: 1rem;
+}
+
+/* Compétences section */
+
+.compétences-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  width: 6rem;
+  height: 6rem;
+  background: url(../images/html-icon.png);
+  background-size: cover;
+  background-position: center;
+  border: none;
+  border-radius: 100%;
+  margin: 2rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill:hover {
+  transform: scale(1.1) translateY(-5px);
 }
