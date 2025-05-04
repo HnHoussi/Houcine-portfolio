@@ -84,6 +84,16 @@ nav.stickyadd .navbar-brand:hover {
   color: rgb(144, 223, 25);
 }
 
+nav .navbar-nav li a:focus,
+nav .navbar-nav li a:active {
+  color: #fff;
+}
+
+nav .navbar-brand:focus,
+nav .navbar-brand:active {
+  color: rgb(144, 223, 25);
+}
+
 /* Accueil Section  */
 
 header {
@@ -103,7 +113,7 @@ header {
 }
 
 .content-box {
-  max-width: 900px;
+  max-width: 1000px;
   color: #dfd5d5;
 }
 
@@ -140,5 +150,19 @@ header {
 /* Parcours section */
 
 .parcours img {
-  height: 90vh;
+  height: 80vh;
+}
+
+.parcours-title {
+  color: #000;
+} 
+.parcours-content {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+  color: #6c757d;
+}
+
+.parcours-content li {
+  margin-bottom: 1rem;
 }
