@@ -98,7 +98,7 @@ nav .navbar-brand:active {
 
 header {
   height: 100vh;
-  background-image: url(../images/wmf4pf98d4l61.png);
+  background-image: url(../images/Accueil-img.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -140,7 +140,7 @@ header {
 }
 
 .content-box p {
-  color: #b1acac;
+  color: #ababab03;
 }
 
 .animated-title {
@@ -148,10 +148,6 @@ header {
 }
 
 /* Parcours section */
-
-.parcours {
-  background-color: #dfd5d5;
-}
 
 .parcours img {
   height: 80vh;
@@ -173,6 +169,10 @@ header {
 
 /* Compétences section */
 
+.compétences {
+  background-color: RGB(235, 235, 235);
+}
+
 .compétences-title {
   display: flex;
   justify-content: center;
@@ -184,15 +184,54 @@ header {
   flex-wrap: wrap;
 }
 
+.skills-container a {
+  margin: 2rem;
+}
+
+.skill-html {
+  background: url(/assets/images/html-icon.png);
+}
+
+.skill-css {
+  background: url(/assets/images/css-icon.png);
+}
+
+.skill-js {
+  background: url(/assets/images/js-icon.png);
+}
+
+.skill-bootstrap {
+  background: url(/assets/images/bootstrap-icon.png);
+}
+
+.skill-jQuery {
+  background: url(/assets/images/jQuery-icon.png);
+}
+
+.skill-react {
+  background: url(/assets/images/react-icon.png);
+}
+
+.skill-node {
+  background: url(/assets/images/node-icon.png);
+}
+
+.skill-express {
+  background: url(/assets/images/express-icon.png);
+}
+
+.skill-git {
+  background: url(/assets/images/git-icon.png);
+}
+
 .skill {
-  width: 6rem;
-  height: 6rem;
-  background: url(../images/html-icon.png);
   background-size: cover;
   background-position: center;
+  background-size: contain;
+  width: 6rem;
+  height: 6rem;
   border: none;
-  border-radius: 100%;
-  margin: 2rem;
+
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
