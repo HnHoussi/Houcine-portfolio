@@ -239,3 +239,42 @@ header {
 .skill:hover {
   transform: scale(1.1) translateY(-5px);
 }
+
+
+/* Projects section*/ 
+.card {
+  width: 22rem;
+  padding: .1em;
+  border-radius: 6px;
+  position: relative
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+.card-image {
+  border-radius: 6px;
+  margin: 0.5rem;
+}
+
+.card-image:hover {
+  transform: scale(0.98);
+  cursor: pointer;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: rgb(25, 135, 85);
+  padding: 10px 7px 0;
+}
+
+.description {
+  font-weight: 600;
+  color: rgb(88, 87, 87);
+  padding: 7px;
+}
