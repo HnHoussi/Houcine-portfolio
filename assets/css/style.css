@@ -1,6 +1,7 @@
 /* Base rules */
 html {
   font-size: 16px;
+    font-family: 'Inter', sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -36,7 +37,7 @@ p {
 
 nav.h-nav {
   background: transparent;
-  padding: 0;
+  padding: 1rem 0;
   transition: 0.5s all;
 }
 
@@ -118,7 +119,10 @@ header {
 }
 
 .content-box h1 {
-  font-size: 3.2rem;
+    min-height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .content-box h4 {
@@ -144,7 +148,9 @@ header {
 }
 
 .animated-title {
-  color: rgb(144, 223, 25);
+    color: rgb(144, 223, 25);
+    display: inline-block;
+    min-height: 1em;
 }
 
 /* Parcours section */
@@ -225,7 +231,6 @@ header {
 }
 
 .skill {
-  background-size: cover;
   background-position: center;
   background-size: contain;
   width: 6rem;
@@ -241,7 +246,7 @@ header {
 }
 
 
-/* Projects section*/ 
+/* Projects section*/
 .card {
   width: 22rem;
   padding: .1em;
@@ -278,3 +283,6 @@ header {
   color: rgb(88, 87, 87);
   padding: 7px;
 }
+
+
+

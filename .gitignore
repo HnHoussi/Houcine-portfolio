@@ -1,2 +1,19 @@
+# Dependency directory
 node_modules/
+
+# OS-specific files
 .DS_Store
+Thumbs.db
+
+# IDE / Editor
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
+
+# Build / cache (if you ever add a bundler later)
+dist/
+build/
+.cache/

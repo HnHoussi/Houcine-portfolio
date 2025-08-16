@@ -8,7 +8,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+      <!--    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />-->
+      <link href="assets/css/bootstrap-brite.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,6 +17,9 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
       rel="stylesheet"
     />
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light sticky fixed-top h-nav">
@@ -59,13 +63,14 @@
           <div class="col text-center">
             <div class="content-box">
               <h4>Bonjour,</h4>
-              <h1>Je suis <span id="typed" class="animated-title"></span></h1>
+                <h1>Je suis
+                    <pre> </pre>
+                    <span class="animated-title" id="typed"></span></h1>
               <p>
                 Ingénieur industriel en cours de transition vers le
                 développement web grâce à une étude autodidacte assidue.
               </p>
-              <a class="btn" href="#">Télécharger mon CV</a>
-            </div>
+                <button class="btn btn-primary" style="font-weight: bold" type="button">Télécharger mon CV</button>
           </div>
         </div>
       </div>
@@ -126,39 +131,33 @@
             <h2>Mes compétences</h2>
           </div>
           <div class="col-lg-6 skills-container">
-            <a
-              href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-              target="_blank"
-              ><button class="skill skill-html"></button>
-            </a>
-            <a
-              href="https://developer.mozilla.org/en-US/docs/Web/CSS"
-              target="_blank"
-              ><button class="skill skill-css"></button
-            ></a>
-            <a
-              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-              target="_blank"
-              ><button class="skill skill-js"></button
-            ></a>
-            <a href="https://getbootstrap.com" target="_blank"
-              ><button class="skill skill-bootstrap"></button
-            ></a>
-            <a href="https://jquery.com" target="_blank"
-              ><button class="skill skill-jQuery"></button
-            ></a>
-            <a href="https://react.dev" target="_blank"
-              ><button class="skill skill-react"></button
-            ></a>
-            <a href="https://nodejs.org/en" target="_blank"
-              ><button class="skill skill-node"></button
-            ></a>
-            <a href="https://expressjs.com" target="_blank"
-              ><button class="skill skill-express"></button
-            ></a>
-            <a href="https://git-scm.com" target="_blank"
-              ><button class="skill skill-git"></button
-            ></a>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+                  <button class="skill skill-html"></button>
+              </a>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+                  <button class="skill skill-css"></button>
+              </a>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                  <button class="skill skill-js"></button>
+              </a>
+              <a href="https://getbootstrap.com" target="_blank">
+                  <button class="skill skill-bootstrap"></button>
+              </a>
+              <a href="https://jquery.com" target="_blank">
+                  <button class="skill skill-jQuery"></button>
+              </a>
+              <a href="https://react.dev" target="_blank">
+                  <button class="skill skill-react"></button>
+              </a>
+              <a href="https://nodejs.org/en" target="_blank">
+                  <button class="skill skill-node"></button>
+              </a>
+              <a href="https://expressjs.com" target="_blank">
+                  <button class="skill skill-express"></button>
+              </a>
+              <a href="https://git-scm.com" target="_blank">
+                  <button class="skill skill-git"></button>
+              </a>
           </div>
         </div>
       </div>
@@ -173,12 +172,11 @@
         <div class="row">
           <div class="col-xs-12 mx-auto mb-5">
             <button class="btn btn-success" data-filter="all">Tous</button>
-            <button class="btn btn-success" data-filter="1">HTML CSS JS</button>
-            <button class="btn btn-success" data-filter="2">jQuery</button>
-            <button class="btn btn-success" data-filter="3">Bootstrap</button>
-            <button class="btn btn-success" data-filter="4">Node</button>
+              <button class="btn btn-success" data-filter="5">Java SpringBoot</button>
+              <button class="btn btn-success" data-filter="5">PHP symfony</button>
+              <button class="btn btn-success" data-filter="6">Python</button>
+              <button class="btn btn-success" data-filter="1">JavaScript</button>
             <button class="btn btn-success" data-filter="5">React</button>
-            <button class="btn btn-success" data-filter="6">Python</button>
           </div>
         </div>
         <div class="container">

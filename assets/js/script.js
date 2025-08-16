@@ -16,7 +16,7 @@ $(".navbar-toggler").on("click", function () {
 // Title animation
 
 const typed = new Typed("#typed", {
-  strings: ["Houcine HANNOUN.", "un Developpeur Web.", "un Ingénieur Industriel."],
+  strings: ["Houcine HANNOUN.", "un Developpeur Web.", "un Ingénieur Industriel en reconversion."],
   typeSpeed: 70,
   smartBackspace: true,
   backSpeed: 35,
